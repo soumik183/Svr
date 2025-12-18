@@ -1,0 +1,35 @@
+{
+  "name": "media-vault",
+  "version": "1.0.0",
+  "description": "A creative, high-performance personal media vault with Node.js and Supabase",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "lint": "eslint src/**/*.js",
+    "build": "echo 'No build step required for vanilla frontend' && exit 0"
+  },
+  "keywords": [
+    "media-vault",
+    "supabase",
+    "express",
+    "creative-ui",
+    "gsap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
